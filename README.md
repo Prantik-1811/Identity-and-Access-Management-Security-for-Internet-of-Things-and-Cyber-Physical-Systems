@@ -150,7 +150,7 @@ Under the guidance of Dr. Vinayak Musale
 ## Citation
 
 ```
-P. Chandra, S. Shaikh, S. Rajesh, and D. Kokate, "Identity and Access Management
+Prantik Chandra, Sami Shaikh, Sreeraj Rajesh, and Dnyanesh Kokate, "Identity and Access Management
 Security for Internet of Things and Cyber-Physical Systems," MIT WPU, Pune, India, 2026.
 ```
 
