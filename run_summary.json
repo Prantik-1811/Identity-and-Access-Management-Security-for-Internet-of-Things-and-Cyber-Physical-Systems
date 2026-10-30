@@ -1,0 +1,47 @@
+{
+  "python": "3.12.3",
+  "platform": "Linux-6.18.44-fc-v185-x86_64-with-glibc2.39",
+  "machine": "x86_64",
+  "scenarios_total": 14,
+  "scenarios_passed": 14,
+  "allow_decisions": 4,
+  "deny_decisions": 10,
+  "max_policy_age_s": 300,
+  "benchmark": [
+    {
+      "batch_size": 100,
+      "repetitions": 7,
+      "median_us_per_request": 0.828,
+      "min_us": 0.799,
+      "max_us": 1.832
+    },
+    {
+      "batch_size": 500,
+      "repetitions": 7,
+      "median_us_per_request": 0.862,
+      "min_us": 0.797,
+      "max_us": 1.04
+    },
+    {
+      "batch_size": 1000,
+      "repetitions": 7,
+      "median_us_per_request": 0.835,
+      "min_us": 0.764,
+      "max_us": 0.933
+    },
+    {
+      "batch_size": 5000,
+      "repetitions": 7,
+      "median_us_per_request": 0.777,
+      "min_us": 0.514,
+      "max_us": 1.55
+    },
+    {
+      "batch_size": 10000,
+      "repetitions": 7,
+      "median_us_per_request": 0.515,
+      "min_us": 0.507,
+      "max_us": 0.896
+    }
+  ]
+}

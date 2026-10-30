@@ -1,0 +1,15 @@
+id,scenario,expected,expected_reason,observed,observed_reason,passed
+1,valid_telemetry,allow,authorized,allow,authorized,True
+2,unknown_identity,deny,identity inactive,deny,identity inactive,True
+3,revoked_identity,deny,identity inactive,deny,identity inactive,True
+4,invalid_credential,deny,credential invalid,deny,credential invalid,True
+5,unauthorized_actuator_action,deny,permission absent,deny,permission absent,True
+6,maintenance_outside_window,deny,context failure,deny,context failure,True
+7,approved_maintenance,allow,authorized,allow,authorized,True
+8,replayed_nonce,deny,replay or freshness failure,deny,replay or freshness failure,True
+9,offline_telemetry_permitted,allow,authorized,allow,authorized,True
+10,offline_config_write_denied,deny,offline policy failure,deny,offline policy failure,True
+11,stale_policy_cache,deny,offline policy failure,deny,offline policy failure,True
+12,blocked_unsafe_actuation,deny,safety interlock,deny,safety interlock,True
+13,invalid_offline_policy_signature,deny,offline policy failure,deny,offline policy failure,True
+14,authorized_diagnostics_read,allow,authorized,allow,authorized,True

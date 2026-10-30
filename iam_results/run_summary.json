@@ -1,0 +1,47 @@
+{
+  "python": "3.14.6",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "machine": "AMD64",
+  "scenarios_total": 14,
+  "scenarios_passed": 14,
+  "allow_decisions": 4,
+  "deny_decisions": 10,
+  "max_policy_age_s": 300,
+  "benchmark": [
+    {
+      "batch_size": 100,
+      "repetitions": 7,
+      "median_us_per_request": 1.959,
+      "min_us": 1.916,
+      "max_us": 2.257
+    },
+    {
+      "batch_size": 500,
+      "repetitions": 7,
+      "median_us_per_request": 1.483,
+      "min_us": 1.324,
+      "max_us": 2.059
+    },
+    {
+      "batch_size": 1000,
+      "repetitions": 7,
+      "median_us_per_request": 0.941,
+      "min_us": 0.797,
+      "max_us": 1.423
+    },
+    {
+      "batch_size": 5000,
+      "repetitions": 7,
+      "median_us_per_request": 0.895,
+      "min_us": 0.883,
+      "max_us": 0.991
+    },
+    {
+      "batch_size": 10000,
+      "repetitions": 7,
+      "median_us_per_request": 0.821,
+      "min_us": 0.738,
+      "max_us": 1.067
+    }
+  ]
+}
